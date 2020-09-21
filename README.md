@@ -52,11 +52,11 @@ To start using TouchVisualizer, write the following line wherever you want to st
 
 ```javascript
     let config = {
-				hexRGBAColor: "#0000ffff",
-				showsTimer: true,
-				showsTouchRadius: true,
-				showsLog: true
-			}
+        hexRGBAColor: "#0000ffff",
+        showsTimer: true,
+        showsTouchRadius: true,
+        showsLog: true
+	}
     TouchVisualizer.start(config, (success) => {
         console.log("success visualizer", success)
     }, (error) => {
@@ -85,12 +85,12 @@ It is really simple, isn't it?
 - [TouchVisualizer Demo movie #potatotips // Speaker Deck](https://speakerdeck.com/morizotter/touchvisualizer-demo-movie-number-potatotips) @potatotips May 13 2015
 
 ## Android
-Android ships already with this feature (without customization). If you wonna have it customized don't hesitate to contribute.
+Android ships already with this feature (without customization). If you wonna have it customized don't hesitate to contribute.[See how to enable it on Android](https://medium.theuxblog.com/enabling-show-touches-in-android-screen-recordings-for-user-research-cc968563fcb9)
+
 
 ## Contributing
 
 Please file issues or submit pull requests for anything you’d like to see! We're waiting! :)
-[See how to enable it on Android](https://medium.theuxblog.com/enabling-show-touches-in-android-screen-recordings-for-user-research-cc968563fcb9)
 
 ## Licensing
 TouchVisualizer is released under the MIT license. Go read the LICENSE file for more information.
