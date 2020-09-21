@@ -6,10 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alexandros Coutsicos",
   "license": "MIT",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
-]
+  ],
+  "cordova": {
+    "id": "cordova-plugin-touch-visualizer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AareFabrik/cordova-plugin-touch-visualizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AareFabrik/cordova-plugin-touch-visualizer/issues"
+  },
+  "homepage": "https://github.com/AareFabrik/cordova-plugin-touch-visualizer#readme"
 }
