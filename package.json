@@ -1,0 +1,15 @@
+{
+  "name": "cordova-plugin-touch-visualizer",
+  "version": "1.0.0",
+  "description": "Example Cordova plugin for iOS to support blog post.  The native part of the plugin is written in Swift rather than Objective-C.  This has been updated to use Swift 3 / XCode 8.2 / Cordova 6.4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+]
+}
